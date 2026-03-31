@@ -71,8 +71,8 @@ movie-recommendation-service/
 ├── app.py          # FastAPI app – API endpoints
 ├── recommender.py  # Hybrid recommender logic
 └── requirements.txt
+```
 
----
 
 ## ⚡ Quick Setup (Summary)
 
@@ -90,3 +90,4 @@ uvicorn app:app --reload
 # 4. Open in browser
 # Swagger docs: http://127.0.0.1:8000/docs
 # Sample:      http://127.0.0.1:8000/recommend?user_id=1&top_k=3
+```
